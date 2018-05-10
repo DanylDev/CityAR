@@ -278,11 +278,14 @@ public class GameManager : MonoBehaviourSingleton<GameManager>
                 Destroy(bufferDone);
             }
 
-            CoreAppControl.Instance.DialogApp.CellWindow(WindowControll.TTypeWindow.Crash);
-            StartCoroutine(CoreAppControl.Instance.DialogApp.GetWindow(WindowControll.TTypeWindow.Crash)
-                .GetComponent<CrashUI>().Start(type, currentVoice.GetComponent<AudioSource>().clip.length));
+            if (type != TCrash.none)
+            {
+                CoreAppControl.Instance.DialogApp.CellWindow(WindowControll.TTypeWindow.Crash);
+                StartCoroutine(CoreAppControl.Instance.DialogApp.GetWindow(WindowControll.TTypeWindow.Crash)
+                    .GetComponent<CrashUI>().Start(type, currentVoice.GetComponent<AudioSource>().clip.length));
 
-            bufferCrash = CoreAppControl.Instance.DialogApp.GetWindow(WindowControll.TTypeWindow.Crash).gameObject;
+                bufferCrash = CoreAppControl.Instance.DialogApp.GetWindow(WindowControll.TTypeWindow.Crash).gameObject;
+            }
         }
 
         Destroy(sound, 1.5f);

@@ -10,8 +10,9 @@ public class TruckAllow : MonoBehaviour
     public bool isEnterPlayer = false;
     public bool carEnter = false;
 
-    public float timer;
-    public float truckTriggerStandTime = 4f;
+    private float timer;
+    private float truckTriggerStandTime = 5f;
+    private float successDisplayDelay = 2f;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -52,13 +53,25 @@ public class TruckAllow : MonoBehaviour
         {
             timer += Time.deltaTime;
         }
+        else
+        {
+            timer = 0;
+        }
 
         if (timer >= truckTriggerStandTime)
         {
-            GameManager.Instance.AddApply(GameManager.TCrash.blind_spot);
+            var successCoroutine = StartCoroutine(SuccessStayBehindTrackRoutine(successDisplayDelay));
+
             car.type = AICar.TType.Start;
             timer = 0;
         }
+    }
+
+    private IEnumerator SuccessStayBehindTrackRoutine(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+
+        GameManager.Instance.AddApply(GameManager.TCrash.blind_spot);
     }
 
     public void ResetTruck()

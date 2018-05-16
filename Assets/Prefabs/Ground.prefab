@@ -13691,7 +13691,7 @@ Transform:
   m_GameObject: {fileID: 1595851583812620}
   m_LocalRotation: {x: -0, y: -0.14762335, z: -0, w: 0.98904365}
   m_LocalPosition: {x: 2.29, y: 1.884, z: -11.55}
-  m_LocalScale: {x: 4.9226294, y: 3.9920435, z: 5.4277287}
+  m_LocalScale: {x: 4.588453, y: 3.9920435, z: 5.4277287}
   m_Children: []
   m_Father: {fileID: 4283631182749356}
   m_RootOrder: 14
@@ -15341,13 +15341,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1132747233831914}
-  m_LocalRotation: {x: 0, y: -0.14761949, z: 0, w: 0.9890442}
-  m_LocalPosition: {x: -1.59, y: 1.884, z: -12.84}
-  m_LocalScale: {x: 3.4408731, y: 3.9920402, z: 5.243022}
+  m_LocalRotation: {x: 0, y: -0.13173734, z: 0, w: 0.99128467}
+  m_LocalPosition: {x: -0.46, y: 1.54, z: -12.43}
+  m_LocalScale: {x: 1.1399255, y: 3.0594609, z: 2.9433284}
   m_Children: []
   m_Father: {fileID: 4283631182749356}
   m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: -16.978, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -15.14, z: 0}
 --- !u!4 &4809974082759552
 Transform:
   m_ObjectHideFlags: 1
@@ -35776,7 +35776,6 @@ MonoBehaviour:
   car: {fileID: 0}
   isEnterPlayer: 0
   carEnter: 0
-  timer: 0
 --- !u!114 &114249450859598918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -35902,7 +35901,6 @@ MonoBehaviour:
   car: {fileID: 114683742757814156}
   isEnterPlayer: 0
   carEnter: 0
-  timer: 0
 --- !u!114 &114450201870667706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -36019,7 +36017,6 @@ MonoBehaviour:
   car: {fileID: 0}
   isEnterPlayer: 0
   carEnter: 0
-  timer: 0
 --- !u!114 &114583184127469102
 MonoBehaviour:
   m_ObjectHideFlags: 1

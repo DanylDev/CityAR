@@ -250,7 +250,7 @@ public class GameplayUI : WindowControll
 
     #region MiniMap
 
-    [Header("Mini_Map")] public uint mapScaleModifier = 33;
+    [Header("Mini_Map")] public uint mapScaleModifier = 32;
 
     private void MinMapControl()
     {

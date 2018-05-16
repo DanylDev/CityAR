@@ -807,7 +807,7 @@ MonoBehaviour:
   imgPointPlayer: {fileID: 114967291875489930}
   imgPointTirgger: {fileID: 114388115332581376}
   listQuest: []
-  mapScaleModifier: 33
+  mapScaleModifier: 32
 --- !u!114 &114287753308966500
 MonoBehaviour:
   m_ObjectHideFlags: 1

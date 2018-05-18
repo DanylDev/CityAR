@@ -82,7 +82,7 @@ MonoBehaviour:
   targetTutorial: {fileID: 114862748748494900}
   listTutorial:
   - typeCrash: 0
-    spriteTutorial: {fileID: 21300000, guid: c68d6df7b9e1b5449b2e421b4721ea61, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: b2de29b8db0832c49a67bd992b681795, type: 3}
   - typeCrash: 1
     spriteTutorial: {fileID: 21300000, guid: dc59b0d9cb29a7448b0287400ab3f14c, type: 3}
   - typeCrash: 2

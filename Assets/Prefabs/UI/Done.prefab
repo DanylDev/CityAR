@@ -173,7 +173,7 @@ MonoBehaviour:
   targetTutorial: {fileID: 114917920623574834}
   listTutorial:
   - typeCrash: 0
-    spriteTutorial: {fileID: 21300000, guid: 965e85791422c1241a13955a02d7314a, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: 969fa8d5f01b8c540afc59bc369deab5, type: 3}
   - typeCrash: 1
     spriteTutorial: {fileID: 21300000, guid: c556bdc1bc3bf5743a3cd0496378da89, type: 3}
   - typeCrash: 2

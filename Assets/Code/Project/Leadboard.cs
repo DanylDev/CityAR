@@ -98,6 +98,8 @@ public class Leadboard : WindowControll
 
     #region Events
 
+    [SerializeField] private TextMeshProUGUI titleText;
+    
     public void InitListEvents()
     {
         //SetString(txtNameGroup, Globals.Instance.coreProfile.name);
@@ -134,6 +136,14 @@ public class Leadboard : WindowControll
                         case Globals.TLanguage.German: SetString(dataPole.txt, listEvents[i].descriptionGerman); break;
                         case Globals.TLanguage.Francua: SetString(dataPole.txt, listEvents[i].descriptionFrench); break;
                         case Globals.TLanguage.Italyano: SetString(dataPole.txt, listEvents[i].descriptionItal); break;
+                    }
+                    
+                    titleText.gameObject.SetActive(true);
+                    switch (Globals.Instance.language)
+                    {
+                        case Globals.TLanguage.German: SetString(titleText, "Auswertung SUVA-City 2.0"); break;
+                        case Globals.TLanguage.Francua: SetString(titleText, "Evaluation SUVA-City 2.0"); break;
+                        case Globals.TLanguage.Italyano: SetString(titleText, "Analisi SUVA-City 2.0"); break;
                     }
 
                     break;

@@ -1790,7 +1790,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'Version: 6.0'
+  m_text: 'Version: 2.0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 715b80e429c437e40867928a4e1fc975, type: 2}
@@ -3758,7 +3758,7 @@ MonoBehaviour:
     debugOverlays: {fileID: 4800000, guid: b958ad1c92bd3d64c9e61318b8681dab, type: 3}
     deferredFog: {fileID: 4800000, guid: 4117fce9491711c4094d33a048e36e73, type: 3}
     scalableAO: {fileID: 4800000, guid: d7640629310e79646af0f46eb55ae466, type: 3}
-    multiScaleAO: {fileID: 0}
+    multiScaleAO: {fileID: 4800000, guid: 67f9497810829eb4791ec19e95781e51, type: 3}
     screenSpaceReflections: {fileID: 4800000, guid: f997a3dc9254c44459323cced085150c,
       type: 3}
   computeShaders:
@@ -3768,10 +3768,14 @@ MonoBehaviour:
     gammaHistogram: {fileID: 7200000, guid: 18183ebfeeab97749b43e38b928604a7, type: 3}
     waveform: {fileID: 7200000, guid: 92c63830cd50c0b4fbb8233613839958, type: 3}
     vectorscope: {fileID: 7200000, guid: e1efca7c36fd01840aae0dd10378de5c, type: 3}
-    multiScaleAODownsample1: {fileID: 0}
-    multiScaleAODownsample2: {fileID: 0}
-    multiScaleAORender: {fileID: 0}
-    multiScaleAOUpsample: {fileID: 0}
+    multiScaleAODownsample1: {fileID: 7200000, guid: 4c63bc487e6c29a4a99f85a6c47b292b,
+      type: 3}
+    multiScaleAODownsample2: {fileID: 7200000, guid: e4d3e4779e48a374f91d48d4c0aedb7b,
+      type: 3}
+    multiScaleAORender: {fileID: 7200000, guid: 34a460e8a2e66c243a9c12024e5a798d,
+      type: 3}
+    multiScaleAOUpsample: {fileID: 7200000, guid: 600d6212b59bb40409d19d750b5fd1e9,
+      type: 3}
     gaussianDownsample: {fileID: 7200000, guid: 6dba4103d23a7904fbc49099355aff3e,
       type: 3}
 --- !u!1 &1158825255

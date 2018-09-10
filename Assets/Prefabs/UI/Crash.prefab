@@ -82,15 +82,15 @@ MonoBehaviour:
   targetTutorial: {fileID: 114862748748494900}
   listTutorial:
   - typeCrash: 0
-    spriteTutorial: {fileID: 21300000, guid: b2de29b8db0832c49a67bd992b681795, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: 7867c44c5e0a8f1498b78cae37fbeada, type: 3}
   - typeCrash: 1
-    spriteTutorial: {fileID: 21300000, guid: dc59b0d9cb29a7448b0287400ab3f14c, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: e1c5964ff7bb45743a9369771832fe18, type: 3}
   - typeCrash: 2
-    spriteTutorial: {fileID: 21300000, guid: 5ad81f42529f8154dbe5f647bf92f51a, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: 3fa08cb83720f9e4096f9bde7f0422e3, type: 3}
   - typeCrash: 3
-    spriteTutorial: {fileID: 21300000, guid: d4114ea54c16d12418cb750946a050a3, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: 3e62999778f7fa54289cf71d1dea08b0, type: 3}
   - typeCrash: 4
-    spriteTutorial: {fileID: 21300000, guid: 5c30a74de90c17645be3be286af291f1, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: e259310130d13194eb7e3f9f09e5da64, type: 3}
   - typeCrash: 5
     spriteTutorial: {fileID: 21300000, guid: 649c8197782bb044e90674d1885374a3, type: 3}
 --- !u!114 &114335524335730898
@@ -231,7 +231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000022888, y: 0.000076294}
+  m_AnchoredPosition: {x: 0, y: 0.00012207031}
   m_SizeDelta: {x: -0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224813499206601144
@@ -269,6 +269,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.030029, y: -0.025024414}
+  m_AnchoredPosition: {x: -0.030029297, y: -0.025024414}
   m_SizeDelta: {x: 0.060059, y: -0.1}
   m_Pivot: {x: 0.5, y: 0.5}

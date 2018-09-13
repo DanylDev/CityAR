@@ -173,15 +173,15 @@ MonoBehaviour:
   targetTutorial: {fileID: 114917920623574834}
   listTutorial:
   - typeCrash: 0
-    spriteTutorial: {fileID: 21300000, guid: 969fa8d5f01b8c540afc59bc369deab5, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: aa0733eb368de8c4f892c0fe46d5d389, type: 3}
   - typeCrash: 1
-    spriteTutorial: {fileID: 21300000, guid: c556bdc1bc3bf5743a3cd0496378da89, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: dbacc58bffd9ffd4085d02398d059b1e, type: 3}
   - typeCrash: 2
-    spriteTutorial: {fileID: 21300000, guid: c814d97e287025b43b85c9a70d6bb352, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: db1d094975632d541b75b0ae08ad8831, type: 3}
   - typeCrash: 3
-    spriteTutorial: {fileID: 21300000, guid: 4324beb2636447d419c025cc66842a41, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: 6b17831167d5c7644ac871a86190bd68, type: 3}
   - typeCrash: 4
-    spriteTutorial: {fileID: 21300000, guid: 0bf54732cfb39d04186d482bc5fb4a30, type: 3}
+    spriteTutorial: {fileID: 21300000, guid: 6d7044806483e28409a5e889fd9e3b14, type: 3}
   - typeCrash: 5
     spriteTutorial: {fileID: 21300000, guid: 4e308f6c22de9a249b64e9700d2b3cf7, type: 3}
 --- !u!222 &222040628235064150
